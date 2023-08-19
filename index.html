@@ -18,6 +18,8 @@
     <!-- font awesome kit -->
     <script src="https://kit.fontawesome.com/ff227eee25.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="style.css">
+
     <!-- tailwind custom color-->
     <script>
         tailwind.config = {
@@ -1548,43 +1550,57 @@
       </section>
       
 
-
-      <!-- service center -->
+      <!-- flesh sell section -->
       <section>
-        <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 mt-16">
-          <div class="flex">
-            <div>
-              <i class="fa-solid fa-truck-fast"></i>
+        <div class="mt-52 mb-20 relative">
+        
+          <img src="images/ecom-banner2.png" alt="">
+
+        
+
+        <div class="absolute bottom-44  left-[750px]">
+         
+          <img class="w-[250px]" src="images/watch4.png" alt="">
+        </div>
+      </div>
+      </section>
+
+      <!-- service center section-->
+      <section>
+        <div class="grid lg:grid-cols-4 gap-4 md:grid-cols-2 grid-cols-1 mt-16  w-full h-20 ">
+          <div class="flex bg-slate-300 pl-2 rounded-md">
+            <div class="">
+              <i class="fa-solid fa-truck-fast mt-5 mr-3 text-4xl"></i>
             </div>
            <div>
-            <h1>Free  Shipping</h1>
+            <h1 class="mt-4">Free  Shipping</h1>
             <h3>Free Shipping On All Order</h3>
            </div>
           </div>
-          <div class="flex">
+          <div class="flex bg-slate-300 pl-2 rounded-md">
             <div>
-              <i class="fa-solid fa-check-double"></i>
+              <i class="fa-solid fa-check-double mt-5 mr-3 text-4xl"></i>
             </div>
             <div>
-              <h1>Money Guarantee</h1>
+              <h1 class="mt-4">Money Guarantee</h1>
             <h3>30 Days Money Back</h3>
             </div>
           </div>
-          <div class="flex">
+          <div class="flex bg-slate-300 pl-2 rounded-md">
             <div>
-              <i class="fa-solid fa-headphones"></i>
+              <i class="fa-solid fa-headphones mt-5 mr-3 text-4xl"></i>
             </div>
             <div>
-              <h1>Online Support 24/7</h1>
+              <h1 class="mt-4">Online Support 24/7</h1>
               <h3>Technical Support 24/7</h3>
             </div>
           
           </div>
 
-          <div class="flex">
-            <div><i class="fa-solid fa-credit-card"></i></div>
+          <div class="flex bg-slate-300 pl-2 rounded-md">
+            <div><i class="fa-solid fa-credit-card mt-5 mr-3 text-4xl"></i></div>
             <div>
-              <h1>Secure Payment</h1>
+              <h1 class="mt-4">Secure Payment</h1>
               <h3>All Cards Accepts</h3>
             </div>
           </div>
@@ -1592,102 +1608,53 @@
       </section>
 
 
-      <!-- customer review-->
-      <div class="mt-20">
-        <div class="hero min-h-[550px]" style="background-image: url(images/ecom-banner3.JPG); ">
-          <div class="hero-overlay bg-opacity-60"></div>
-          <div class="hero-content text-center text-neutral-content text-white">
-            <div class="">
-              <h1 class="mb-5 text-5xl font-bold">Customer Review</h1>
-              <p class="mb-5">"Our clients can't stop raving about their experience with us! <br> From top-notch products to exceptional service, <br> we're thrilled to consistently receive glowing reviews that highlight our commitment to excellence."</p>
-  
-              <!-- client -->
-              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-                <!-- first client -->
-                <div class="card pt-5   bg-none border-0  lg:w-56 ">
-                  <figure><img class="w-28" src="images/member1.png" alt="" /></figure>
-                  <div class="card-body">
-                      
-                      <div class="text-center space-y-2">
-                        <h4 class="text-lg font-extrabold ">Awlad Hossain</h4>
-                        <p>Businessman</p>
-                      </div>
-                      
-                      <div class="rating rating-lg rating-half justify-center">
-                        <input type="radio" name="rating-10" class="rating-hidden" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" checked/>
-                        <input type="radio" name="rating-10" class="bg-[#eee9e7] mask mask-star-2 mask-half-2" />
-                      </div>
-          
-                    </div>
-                  </div>
-                  
-                <!-- second client -->
-                <div class="card pt-5   bg-none border-0  lg:w-56 ">
-                  <figure><img class="w-28" src="images/member2.png" alt="" /></figure>
-                  <div class="card-body">
-                      
-                      <div class="text-center space-y-2">
-                        <h4 class="text-lg font-extrabold ">Safia Chowdhury</h4>
-                        <p>Student</p>
-                      </div>
-                      <div class="rating rating-lg rating-half justify-center">
-                        <input type="radio" name="rating-10" class="rating-hidden" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
-                      </div>
-          
-                    </div>
-                  </div>
-                <!-- third client -->
-                <div class="card pt-5   bg-none border-0  lg:w-56 ">
-                  <figure><img class="w-28" src="images/member3.png" alt="" /></figure>
-                  <div class="card-body">
-                      
-                      <div class="text-center space-y-2">
-                        <h4 class="text-lg font-extrabold ">Rokib Hossain</h4>
-                        <p> Entrepreneur</p>
-                      </div>
-                      <div class="rating rating-lg rating-half justify-center">
-                        <input type="radio" name="rating-10" class="rating-hidden" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
-                        <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
-                      </div>
-          
-                    </div>
-                  </div>
-                  <!-- fourth client -->
+      <!-- customer review section-->
+      <section>
+        <div class="mt-20">
+          <div class="hero min-h-[550px]" style="background-image: url(images/ecom-banner3.JPG); ">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content text-white">
+              <div class="">
+                <h1 class="mb-5 text-5xl font-bold">Customer Review</h1>
+                <p class="mb-5">"Our clients can't stop raving about their experience with us! <br> From top-notch products to exceptional service, <br> we're thrilled to consistently receive glowing reviews that highlight our commitment to excellence."</p>
+    
+                <!-- client -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+                  <!-- first client -->
                   <div class="card pt-5   bg-none border-0  lg:w-56 ">
-                    <figure><img class="w-28" src="images/member4.png" alt="" /></figure>
+                    <figure><img class="w-28" src="images/member1.png" alt="" /></figure>
                     <div class="card-body">
                         
                         <div class="text-center space-y-2">
-                          <h4 class="text-lg font-extrabold ">Chaity</h4>
-                          <p>Teacher</p>
+                          <h4 class="text-lg font-extrabold ">Awlad Hossain</h4>
+                          <p>Businessman</p>
+                        </div>
+                        
+                        <div class="rating rating-lg rating-half justify-center">
+                          <input type="radio" name="rating-10" class="rating-hidden" />
+                          <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
+                          <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
+                          <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
+                          <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
+                          <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
+                          <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
+                          <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
+                          <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
+                          <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" checked/>
+                          <input type="radio" name="rating-10" class="bg-[#eee9e7] mask mask-star-2 mask-half-2" />
+                        </div>
+            
+                      </div>
+                    </div>
+                    
+                  <!-- second client -->
+                  <div class="card pt-5   bg-none border-0  lg:w-56 ">
+                    <figure><img class="w-28" src="images/member2.png" alt="" /></figure>
+                    <div class="card-body">
+                        
+                        <div class="text-center space-y-2">
+                          <h4 class="text-lg font-extrabold ">Safia Chowdhury</h4>
+                          <p>Student</p>
                         </div>
                         <div class="rating rating-lg rating-half justify-center">
                           <input type="radio" name="rating-10" class="rating-hidden" />
@@ -1700,23 +1667,81 @@
                           <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
                           <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
                           <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
-                          <input type="radio" name="rating-10" class="bg-[#eee9e7] mask mask-star-2 mask-half-2" />
+                          <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
                         </div>
-          
+            
                       </div>
                     </div>
-                  </div>
+                  <!-- third client -->
+                  <div class="card pt-5   bg-none border-0  lg:w-56 ">
+                    <figure><img class="w-28" src="images/member3.png" alt="" /></figure>
+                    <div class="card-body">
+                        
+                        <div class="text-center space-y-2">
+                          <h4 class="text-lg font-extrabold ">Rokib Hossain</h4>
+                          <p> Entrepreneur</p>
+                        </div>
+                        <div class="rating rating-lg rating-half justify-center">
+                          <input type="radio" name="rating-10" class="rating-hidden" />
+                          <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
+                          <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
+                          <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
+                          <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
+                          <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
+                          <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
+                          <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
+                          <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
+                          <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
+                          <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
+                        </div>
+            
+                      </div>
+                    </div>
+                    <!-- fourth client -->
+                    <div class="card pt-5   bg-none border-0  lg:w-56 ">
+                      <figure><img class="w-28" src="images/member4.png" alt="" /></figure>
+                      <div class="card-body">
+                          
+                          <div class="text-center space-y-2">
+                            <h4 class="text-lg font-extrabold ">Chaity</h4>
+                            <p>Teacher</p>
+                          </div>
+                          <div class="rating rating-lg rating-half justify-center">
+                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-[#55f878] mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-[#eee9e7] mask mask-star-2 mask-half-2" />
+                          </div>
+            
+                        </div>
+                      </div>
+                      <div class="pl-[490px] mb-[52px]">
+                        <button class="btn glass bg-lime-200 ">Give Feedback</button>
+  
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                
+              </div>
               
             </div>
-          </div>
+         </div> 
         </div>
-      </div>
+      </section>
 
 
       <!-- choose us section -->
       <div class="py-32 ">
         <h1 class="text-center text-3xl font-bold pb-3">Why Choose Us</h1>
-        <p class="text-center">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+        <p class="text-center text-xl ">Experience a wide range of top-notch quality products with unbeatable convenience – all at  <span class="span">E-Buddy</span> . <br> Your ultimate shopping satisfaction is our commitment.</p>
 
         <div class="pt-14 grid grid-cols-1  lg:grid-cols-3 lg: gap-10 ">
           <!-- 1st col -->
@@ -1728,7 +1753,7 @@
               <div>
                 <div>
                   <h3 class="text-lg font-extrabold">Dedicated Team</h3>
-                  <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+                  <p>Professional employees are there for you to pick  the most amazing .</p>
                 </div>
                 <div class="bg-black w-40 h-0.5 bottom-1 lg:mx-0 mx-auto my-3">
   
@@ -1741,8 +1766,8 @@
               </div>
               <div>
                 <div>
-                  <h3 class="text-lg font-extrabold">Fresh is Best</h3>
-                  <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+                  <h3 class="text-lg font-extrabold">Wide Range</h3>
+                  <p>Professional employees are there for you to pick the most amazing.</p>
                 </div>
                 <div class="bg-black w-40 h-0.5 bottom-1 lg:mx-0 mx-auto my-3">
   
@@ -1759,7 +1784,7 @@
               <div>
                 <div>
                   <h3 class="text-lg font-extrabold">Gift Certificates</h3>
-                  <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+                  <p>Professional employees are there for you to pick the most amazing.</p>
                 </div>
                 <div class="bg-black w-40 h-0.5 bottom-1 lg:mx-0 mx-auto my-3">
   
@@ -1770,8 +1795,8 @@
 
 
           <!-- 2nd col -->
-          <div class="lg:w-[410px]">
-            <img class="w" src="images/whychoose1.png" alt="">
+          <div class="lg:w-[380px]">
+            <img class="mt-10" src="images/shopping.png" alt="">
           </div>
 
           <!-- 3rd col -->
@@ -1780,8 +1805,8 @@
             <div class="flex">
               
               <div>
-                <h3 class="text-lg font-extrabold">Dedicated Team</h3>
-                <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+                <h3 class="text-lg font-extrabold">Top Quality</h3>
+                <p>Professional employees are there for you to pick the most amazing.</p>
                 <div class="bg-black w-40 h-0.5 bottom-1 lg:mr-0 mx-auto  my-3">
   
                 </div>
@@ -1798,8 +1823,8 @@
             <div class="flex">
               
               <div>
-                <h3 class="text-lg font-extrabold">Dedicated Team</h3>
-                <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+                <h3 class="text-lg font-extrabold">Interactive Features</h3>
+                <p>Professional employees are there for you to pick the most amazing.</p>
                 <div class="bg-black w-40 h-0.5 bottom-1 lg:mr-0 mx-auto  my-3">
   
                 </div>
@@ -1813,8 +1838,8 @@
             <div class="flex">
               
               <div>
-                <h3 class="text-lg font-extrabold">Dedicated Team</h3>
-                <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+                <h3 class="text-lg font-extrabold">Sustainability</h3>
+                <p>Professional employees are there for you to pick the most amazing.</p>
                 <div class="bg-black w-40 h-0.5 bottom-1 lg:mr-0 mx-auto  my-3">
   
                 </div>
@@ -1833,8 +1858,8 @@
     <!-- footer -->
     <footer class="footer footer-center py-20 p-10 bg-black text-base-content rounded text-white ">
       <div class="flex lg:ml-6">
-        <img class="w-10 h-10" src="images/logo.png" alt="">
-      <a class="btn btn-ghost normal-case text-3xl">Fruit Burst</a>
+        <img class="w-10 h-10 rounded-full" src="images/logo.jpg" alt="">
+      <a class="btn btn-ghost normal-case text-3xl">E-Buddy</a>
       </div>
 
 
@@ -1846,12 +1871,12 @@
         <a class="link link-hover decoration-0">Home</a> 
         <a class="link link-hover">About Us</a> 
         <a class="link link-hover">Shop</a> 
-        <a class="link link-hover">All Fruits</a>
+        <a class="link link-hover">All Products</a>
         
       </div> 
       <div class="flex gap-4 pl-3">
         <a class="link link-hover">Support</a> 
-       <a class="link link-hover">My Account</a>
+       <a class="link link-hover">Contact Us</a>
       </div>
      </div>
 
@@ -1868,6 +1893,8 @@
           
         </div>
       </div> 
+
+      <p>All rights reserved ©2023 by E-buddy</p>
       
     </footer>
 </body>
