@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-buddy</title>
+
+    <!-- lato google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+
+    <!-- tailwind and daisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/ff227eee25.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- tailwind custom color-->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+
+    <style>
+        .font-lato{
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header class="container mx-auto max-w-8xl p-4">
+        <!-- navbar section -->
+        <div class="navbar lg:bg-[#6bcdfa] rounded-full lg:text-white max-w-0 lg:max-w-full h-20 lg:h-auto mt-5 ">
+
+
+          <div class="navbar-start  invisible lg:visible ml-2 ">
+              <ul class="menu menu-horizontal  px-1 text-[16px]">
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="products.html">Products</a></li>
+                  <li><a href="shop.html">Shop</a></li>                 
+                  <li><a href="aboutUs.html">About Us</a></li>
+                </ul>
+          </div>
+  
+  
+          <div class="navbar-center lg:flex  flex-row-reverse flex ">
+  
+  
+              <div class="dropdown lg:hidden md:visible visible md:pl-[450px] pl-28 w-auto lg:w-0">
+                  <label tabindex="0" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"  stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                  </label>
+                  
+                    
+                  <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-28 md:ml-96  flex" style="
+  left: 30px;
+">
+                      <li><a>Home</a></li>
+                      <li><a>Products</a></li>
+                      <li><a>Shop</a></li>                 
+                      <li><a>About Us</a></li>
+                  </ul>
+                  
+                  
+                  
+                </div>
+                <div class="flex lg:ml-6">
+                  <img class="w-10 h-10 lg:ml-14 rounded-full" src="images/logo.jpg" alt="">
+                <!-- <a class="btn btn-ghost normal-case text-3xl">Fruit Burst</a> -->
+                <h1 class="text-3xl ml-2"> E-Buddy</h1>
+                </div>
+           
+          </div>
+  
+  
+  
+          <div class="navbar-end mr-5 invisible lg:visible">
+              <input class="pl-3 pt-1 pb-1 pr-10 rounded-full relative"  type="input" placeholder="Search here" >
+              <i class="fa-solid fa-magnifying-glass absolute mr-10" style="color: #000000;"></i>
+              <i class="fa-solid fa-cart-shopping ml-3"></i>
+
+          </div>
+        </div>
+        
+    </header>
+
+    <main >
+        <h1 class="text-center font-extrabold text-4xl mt-10">E-Buddy</h1>
+        <hr class="w-40 mx-auto ">
+        <div class="mt-16  pr-24 pl-24 justify-center" >
+            <div>
+                <div class="text-center mt-6">
+                    Welcome to E-Buddy, your trusted companion in the world of online shopping. At E-Buddy, <br> we're more than just an e-commerce platform – we're your partner on a digital shopping adventure, <br> committed to making your online experience seamless, enjoyable, and rewarding.
+                </div>
+                <div class="text-center  mt-6"> Since our inception, we've been your go-to destination for discovering an <br> extensive range of products that cater to every aspect of your life. <br> Our dedication to simplifying your shopping journey .
+                
+                   </div>
+                <div class="text-center  mt-6">
+                    E-Buddy isn't just a marketplace; it's a community that values your time and preferences. <br> We curate our selection with care, ensuring that each product embodies quality and innovation.
+                    
+                    
+                </div>
+                <div class="text-center  mt-6">
+                    Your satisfaction is our priority, and our customer support team is here to assist you at every <br> step. Whether you have questions about products, orders, or recommendations.
+                    
+                    
+                </div>
+                <div class="text-center  mt-6"> Thank you for choosing E-Buddy as your digital shopping companion. <br> We invite you to explore our ever-evolving offerings, engage with our community, and experience the <br> joy of online shopping like never before.
+                    
+                    </div>
+                <div class="text-center  mt-6">
+                    Join E-Buddy – Your Partner in Online Shopping Delight
+                </div>
+        </div>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer class="footer footer-center mt-10 py-20 p-10 bg-black text-base-content rounded text-white ">
+        <div class="flex lg:ml-6">
+          <img class="w-10 h-10 rounded-full" src="images/logo.jpg" alt="">
+        <a class="btn btn-ghost normal-case text-3xl">E-Buddy</a>
+        </div>
+  
+  
+        
+        
+  
+       <div class="grid lg:grid-flow-col">
+        <div class="grid grid-flow-col gap-6 ">
+          <a class="link link-hover decoration-0">Home</a> 
+          <a class="link link-hover">About Us</a> 
+          <a class="link link-hover">Shop</a> 
+          <a class="link link-hover">All Products</a>
+          
+        </div> 
+        <div class="flex gap-4 pl-3">
+          <a class="link link-hover">Support</a> 
+         <a class="link link-hover">Contact Us</a>
+        </div>
+       </div>
+  
+  
+  
+        <div>
+          <div class="grid grid-flow-col  gap-5 ">
+            <a><img class="h-6 w-6" src="images/twitter.svg" alt=""></a>
+            <a><img class="h-6 w-6" src="images/facebook.svg" alt=""></a> 
+            <a><img class="h-6 w-6" src="images/Group.svg" alt=""></a> 
+            <a><img class="h-6 w-6" src="images/linkedin.svg" alt=""></a> 
+            <a><img class="h-6 w-6" src="images/instagram.svg" alt=""></a> 
+            <a><img class="h-6 w-6" src="images/apple.svg" alt=""></a> 
+            
+          </div>
+        </div> 
+  
+        <p>All rights reserved ©2023 by E-buddy</p>
+        
+      </footer>
+</body>
+</html>
