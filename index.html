@@ -478,6 +478,26 @@
       </section>
       
 
+      <!-- cart section -->
+      <section>
+        <div class="w-full h-[300px] mt-10 bg-slate-200 rounded-md">
+          <h1 class="px-8 py-3 font-bold">Added in cart</h1>
+          <div id="calculation-entry">
+                  
+          </div>
+
+        <div id="total">
+          <h1 class="px-8 py-3 font-bold">Total Price:<span id="balance-total">00</span> </h1>
+          
+        </div>
+
+        <button class="py-3 px-6 rounded-md text-white hover:bg-pink-600 bg-pink-400 ml-8">Make Purchase</button>
+        </div>
+
+        
+      </section>
+
+
       <!--Kitchenware products cards -->
       <section>
         <div class="mb-5">
@@ -490,7 +510,7 @@
             <figure><img class="w-[110px]" src="images/prod1.png" alt="Products" /></figure>
             <div class="card-body ">
               
-              <h1 class="text-[20px] font-semibold">1200.00 Tk</h1>
+              <h1 class="text-[20px] font-semibold"> <span id="kAccessoriesOne">1200</span>.00 Tk</h1>
               <hr>
               <div class="">
                 <h4 class="text-lg font-semibold   mt-3">K.Accessories</h4>
@@ -554,15 +574,16 @@
                   
                 </div>
 
-                <button class="btn glass bg-lime-400 ">Add to cart</button>
+                <button onclick="kAccessoriesAddToCartOne()" class="btn glass bg-lime-400 ">Add to cart</button>
               </div>
             </div>
+
           <!--Kitchenware second products card -->
           <div class="card p-6  bg-base-100 border border-gray-300">
             <figure><img class="w-[144px]" src="images/prod2.png" alt="fruit" /></figure>
             <div class="card-body">
               
-              <h1 class="text-[20px] font-semibold">2250.00 Tk</h1>
+              <h1 class="text-[20px] font-semibold"> <span id="kAccessoriesTwo">2250</span>.00 Tk</h1>
               <hr>
               <div class="text-center">
                 <h4 class="text-lg  font-semibold   mt-3">K.Accessories</h4>
@@ -623,7 +644,7 @@
                   </dialog>
                   
                 </div>
-                <button class="btn glass bg-lime-400 ">Add to cart</button>
+                <button onclick="kAccessoriesAddToCartTwo()" class="btn glass bg-lime-400 ">Add to cart</button>
               </div>
             </div>
           <!--Kitchenware third products card -->
@@ -631,7 +652,7 @@
             <figure><img class="w-36" src="images/prod3.png" alt="fruit" /></figure>
             <div class="card-body">
               
-              <h1 class="text-[20px]  font-semibold">2599.00 Tk</h1>
+              <h1 class="text-[20px]  font-semibold"> <span id="kAccessoriesThree">2599</span>.00 Tk</h1>
               <hr>
               <div class="text-center">
                 <h4 class="text-lg  font-semibold   mt-3">K.Accessories</h4>
@@ -693,7 +714,7 @@
                     </form>
                   </dialog>
                 </div>
-                <button class="btn glass bg-lime-400 ">Add to cart</button>
+                <button onclick="kAccessoriesAddToCartThree()" class="btn glass bg-lime-400 ">Add to cart</button>
               </div>
             </div>
             
@@ -1910,5 +1931,7 @@
       <p>All rights reserved ©2023 by E-buddy</p>
       
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
